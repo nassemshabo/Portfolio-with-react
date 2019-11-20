@@ -9,7 +9,7 @@ const Home = () => {
 const Router = () => {
   return (
     <div>
-      <h1>Reouter</h1>
+      <h1>Reouterr</h1>
     </div>
   );
 };

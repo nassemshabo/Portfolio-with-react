@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./style.project.scss";
 import data from "./ProjectData";
@@ -8,7 +9,6 @@ class Project extends React.Component {
     projects: data
   };
   render() {
-    console.log(this.state.projects);
     return (
       <div className="project-section">
         <h1>project</h1>
@@ -16,7 +16,14 @@ class Project extends React.Component {
           {this.state.projects.projects.map(project => (
             <div key={project.id} className="project-box">
               <div className="img-box">
-                <img src={project.url} alt={project.name} />
+                <Link
+                  to={{
+                    pathname: `/${project.name}`,
+                    state: { data: project }
+                  }}
+                >
+                  <img src={project.url} alt={project.name} />
+                </Link>
               </div>
               <div className="p-box">
                 <p>

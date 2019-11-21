@@ -9,6 +9,7 @@ import Contact from "./components/Contact/Contact";
 
 const App = () => {
   return (
+    /* main-app*/
     <div className="app">
       <HeaderSection />
       <About />

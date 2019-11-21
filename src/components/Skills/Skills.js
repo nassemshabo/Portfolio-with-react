@@ -21,6 +21,10 @@ const Skills = () => {
           <i className="fab fa-gulp"></i>
           <p>gulp</p>
         </div>
+        <div className="gulp">
+          <i className="fab fa-gulp"></i>
+          <p>gulp</p>
+        </div>
         <div className="sass">
           <i className="fab fa-sass"></i>
           <p>Sass</p>

@@ -1,3 +1,143 @@
 .app {
   width: 100%;
 }
+
+@media only screen and (max-width: 1250px) {
+  /* UL */
+  .app .header-section .header ul {
+    width: 35%;
+  }
+
+  /* about me */
+  .app .about-section .about-me {
+    padding-right: 50px;
+  }
+  .app .about-section .about-img {
+    height: 35vh;
+  }
+  /* skills */
+  .app .skills {
+    width: 90%;
+  }
+  .app .skills .fab {
+    font-size: 90px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .app .header-section .header ul {
+    width: 40%;
+  }
+  /* about me */
+  .app .about-section {
+    width: 80%;
+  }
+  .app .about-section .about-me {
+    padding-right: 40px;
+  }
+  p {
+    font-size: 14px;
+  }
+  .app .about-section .about-img {
+    height: 30vh;
+  }
+  /* skills*/
+  .app .skills {
+    width: 95%;
+  }
+  .app .skills .fab {
+    font-size: 70px;
+  }
+  .app .skills p {
+    font-size: 18px;
+  }
+
+  /* projects*/
+  .app .project-section {
+    width: 80%;
+  }
+  .app .project-section .main-project .project-box .img-box {
+    height: 65%;
+  }
+  /* contact */
+  .app .contact .contact-section {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  /* header-section */
+  .app .header {
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .app .header-section .header ul {
+    display: none;
+  }
+  .app .header-section .header .icons {
+    display: block;
+  }
+  .app .header-section .main-section h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .app .header-section .main-section h4 {
+    font-size: 20px;
+  }
+
+  /* about-section */
+  /* about me */
+  .app .about-section {
+    width: 85%;
+  }
+  .app .about-section .about-me {
+    padding-right: 0px;
+  }
+  p {
+    font-size: 15px;
+  }
+  .app .about-section .about-img {
+    display: none;
+  }
+  /* skills*/
+  .app .skills {
+    width: 100%;
+  }
+  .app .skills .fab {
+    font-size: 40px;
+    padding: 10px;
+  }
+  .app .skills p {
+    font-size: 14px;
+  }
+  /* projects*/
+  .app .project-section {
+    width: 85%;
+  }
+  .app .project-section .main-project {
+    grid-template-columns: 1fr;
+    -ms-grid-columns: 1fr;
+    grid-template-rows: 350px 350px 350px 350px 350px 350px;
+    -ms-grid-rows: 350px 350px 350px 350px 350px 350px;
+  }
+
+  /* contact */
+  .app .contact .contact-section {
+    grid-template-columns: 1fr;
+    -ms-grid-columns: 1fr;
+  }
+  .app .contact .contact-section .send-massage form input,
+  textarea {
+    width: 100%;
+  }
+  .app .contact .contact-section .send-massage form textarea {
+    width: 100%;
+  }
+  .app .contact .contact-section .get-touch .contact-icons .fab {
+    font-size: 25px;
+  }
+  .app .contact .contact-section .get-touch p {
+    padding: 10px 0;
+  }
+}

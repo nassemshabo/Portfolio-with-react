@@ -22,6 +22,11 @@ const Header = () => {
           <a>Contact</a>
         </li>
       </ul>
+      <div className="icons">
+        <div className="icon"></div>
+        <div className="icon"></div>
+        <div className="icon"></div>
+      </div>
     </div>
   );
 };

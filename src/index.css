@@ -12,7 +12,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: "Viga", sans-serif;
   color: #fff;
-  background: rgb(255, 255, 255);
+  background: #fff;
 }
 
 code {
@@ -23,4 +23,14 @@ p {
   letter-spacing: 0em;
   line-height: 1.8;
   color: #494952;
+}
+
+button {
+  color: #fff;
+  background: rgb(23, 143, 255);
+  border: none;
+  font-weight: bold;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
 }

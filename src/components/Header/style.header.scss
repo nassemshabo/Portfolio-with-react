@@ -14,4 +14,17 @@
       font-size: 16px;
     }
   }
+  .icons {
+    width: 60px;
+    display: none;
+    .icon {
+      width: 90%;
+      display: block;
+      height: 5px;
+      background: #fff;
+      margin: 0 auto;
+      margin-bottom: 5px;
+      border-radius: 10px;
+    }
+  }
 }

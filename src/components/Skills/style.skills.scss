@@ -1,0 +1,86 @@
+.skills {
+  text-align: center;
+  margin: 100px auto;
+  width: 80%;
+
+  .centering {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+
+    h4 {
+      color: #1a1a20;
+      font-size: 36px;
+      text-transform: uppercase;
+      &::after {
+        content: "";
+        display: block;
+        width: 50%;
+        height: 4px;
+        background: rgb(23, 143, 255);
+        margin: 0 auto;
+      }
+    }
+  }
+
+  .fab {
+    font-size: 120px;
+    cursor: pointer;
+    transition: 700ms color;
+    padding: 20px;
+  }
+  p {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #141414;
+  }
+
+  .p-lang {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10%;
+
+    .html {
+      .fa-html5 {
+        color: #ce6300;
+        &:hover {
+          color: rgb(80, 77, 77);
+        }
+      }
+    }
+    .css {
+      .fa-css3 {
+        color: #008fd5;
+        &:hover {
+          color: rgb(80, 77, 77);
+        }
+      }
+    }
+    .sass {
+      .fa-sass {
+        color: #e83e8c;
+        &:hover {
+          color: rgb(80, 77, 77);
+        }
+      }
+    }
+    .javascript {
+      .fa-js {
+        color: #f1ba3a;
+        &:hover {
+          color: rgb(80, 77, 77);
+        }
+      }
+    }
+    .gulp {
+      .fa-gulp {
+        color: #ce3232;
+
+        &:hover {
+          color: rgb(80, 77, 77);
+        }
+      }
+    }
+  }
+}

@@ -4,8 +4,24 @@ import "./style.header.scss";
 
 const Header = () => {
   return (
-    <div>
-      <h1>Header</h1>
+    <div className="header">
+      <div className="logo-container">
+        <h1 className="logo">Nasim.Sh</h1>
+      </div>
+      <ul className="lists">
+        <li>
+          <a className="list">Home</a>
+        </li>
+        <li>
+          <a>About</a>
+        </li>
+        <li>
+          <a>Porjects</a>
+        </li>
+        <li>
+          <a>Contact</a>
+        </li>
+      </ul>
     </div>
   );
 };

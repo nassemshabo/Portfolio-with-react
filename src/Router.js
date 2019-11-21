@@ -1,4 +1,5 @@
 import React from "react";
+import { Switch, Route } from "react-router-dom";
 
 import App from "./App";
 
@@ -8,9 +9,9 @@ const Home = () => {
 
 const Router = () => {
   return (
-    <div>
-      <h1>Reouter</h1>
-    </div>
+    <Switch>
+      <Route exact path="/" component={Home} />
+    </Switch>
   );
 };
 

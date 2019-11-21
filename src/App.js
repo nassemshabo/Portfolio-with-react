@@ -1,11 +1,18 @@
 import React from "react";
 
 import "./App.css";
+import HeaderSection from "./components/Header-section/HeaderSection";
+import About from "./components/About/About";
+import Skills from "./components/Skills/Skills";
+import Project from "./components/Projects/Project";
 
 const App = () => {
   return (
-    <div>
-      <h1>home page</h1>
+    <div className="app">
+      <HeaderSection />
+      <About />
+      <Skills />
+      <Project />
     </div>
   );
 };

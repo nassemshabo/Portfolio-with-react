@@ -1,0 +1,32 @@
+.about-section {
+  width: 70%;
+  height: 20vw;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  margin: 150px auto;
+  align-items: center;
+
+  .about-me {
+    padding-right: 100px;
+    h4 {
+      margin-bottom: 15px;
+      font-size: 26px;
+      color: #1a1a20;
+      display: inline-block;
+      &::after {
+        content: "";
+        display: block;
+        width: 50%;
+        height: 4px;
+        background: rgb(23, 143, 255);
+      }
+    }
+  }
+  .about-img {
+    height: 50vh;
+    img {
+      height: 100%;
+    }
+  }
+}

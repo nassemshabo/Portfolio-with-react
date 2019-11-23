@@ -9,7 +9,7 @@ const HeaderSection = () => {
       <Header />
       <div className="main-section">
         <h1>Hello, I am Nasim Shabo</h1>
-        <h4>I am a Frond End Developer</h4>
+        <h4>I am a Front End Developer</h4>
         <button className="main-section-btn">View My Porjects</button>
       </div>
     </div>

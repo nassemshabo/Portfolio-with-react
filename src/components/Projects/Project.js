@@ -11,7 +11,7 @@ class Project extends React.Component {
   render() {
     return (
       <div className="project-section">
-        <h1>project</h1>
+        <h1>projects</h1>
         <div className="main-project">
           {this.state.projects.projects.map(project => (
             <div key={project.id} className="project-box">

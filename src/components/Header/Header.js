@@ -19,10 +19,6 @@ class Header extends React.Component {
     });
   }
 
-  componentWillUnmount() {
-    window.removeEventListener("scroll");
-  }
-
   render() {
     return (
       <div style={{ height: "80px" }}>

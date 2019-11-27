@@ -10,7 +10,7 @@ class Project extends React.Component {
   };
   render() {
     return (
-      <div className="project-section">
+      <div className="project-section" id="projects">
         <h1>projects</h1>
         <div className="main-project">
           {this.state.projects.projects.map(project => (

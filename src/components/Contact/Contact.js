@@ -4,7 +4,7 @@ import "./style.contact.scss";
 
 const Contact = () => {
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       <div className="contact-section">
         <div className="send-massage">
           <h4>Send A Message</h4>
@@ -26,10 +26,10 @@ const Contact = () => {
             collaboration, or just say hi, I'd love to hear from you. Simply
             fill the from and send me an email.{" "}
           </p>
-          <div class="contact-icons">
-            <i class="fab fa-github-alt"></i>
-            <i class="fab fa-codepen"></i>
-            <i class="fab fa-facebook"></i>
+          <div className="contact-icons">
+            <i className="fab fa-github-alt"></i>
+            <i className="fab fa-codepen"></i>
+            <i className="fab fa-facebook"></i>
           </div>
         </div>
       </div>
